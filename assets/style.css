@@ -1,0 +1,30 @@
+a.buy-now-btn {
+    display: none;
+}
+
+
+.food-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0 0 0 / 42%);
+}
+
+.switch-box {
+    position: fixed;
+    z-index: 1;
+    left: 1em;
+    top: 5em;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.gallery-content h3 a{
+	pointer-events: none;
+    cursor: pointer;
+}
+
+*{
+    behavior: 'smooth';
+}
+.main-banner-item.banner-item-two .main-banner-content h1 {
+    color: #111111;
+    font-size: 34px;
+}
