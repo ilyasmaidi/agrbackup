@@ -146,4 +146,50 @@ else if(isset($_POST['update_home_btn']))
      }
 
 }
+else if(isset($_POST['update_banner_btn']))
+{     
+     $banner_id = $_POST['banner_id']; 
+     $name = $_POST['name'];  
+     $slug = $_POST['slug'];
+     $contact = $_POST['contact'];
+     $download = $_POST['download'];
+     
+
+
+     $new_image = $_FILES['image']['name'];
+     $old_image = isset($_POST['old_image']) ? $_POST['old_image'] : '';
+     
+     if($new_image != "")
+     {
+         // $update_filename = $new_image;
+         $image_ext = pathinfo($new_image, PATHINFO_EXTENSION);
+         $update_filename_banner = time().'.'.$image_ext  ;
+     }else
+     {
+         $update_filename_banner = $old_image;
+     }
+     $path ="../uploads";
+
+     $update_query ="UPDATE banner SET name='$name', slug='$slug', contact='$contact',download='$download',image='$update_filename_banner' WHERE id='$banner_id'";
+
+     $update_query_run = mysqli_query($con,$update_query);
+     if($update_query_run)
+     {
+      if($_FILES['image']['name'] != "")
+      {
+         move_uploaded_file($_FILES['image']['tmp_name'],$path.'/'.$update_filename_banner);
+         if(file_exists("../uploads/".$old_image))
+         {
+            unlink("../uploads/".$old_image);
+         }
+      }
+      redirect("Category Updated Successfully","edit-home.php?id=$banner_id");
+     }
+     else 
+     {
+      redirect("Something WEnt Wrong","edit-home.php?id=$banner_id");
+
+     }
+
+}
 ?>

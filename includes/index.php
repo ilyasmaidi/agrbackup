@@ -61,7 +61,7 @@
         <!-- End Gallery Area -->
 
         <!-- Start Video Area -->
-        <?php include("./includes/gallery-area.php") ?>
+        <?php include("./includes/video-area.php") ?>
         
         <!-- End Video Area -->
 

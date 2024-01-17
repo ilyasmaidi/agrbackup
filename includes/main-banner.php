@@ -1,7 +1,7 @@
-<!-- <?php 
-$main_banner_query = "SELECT * FROM edit (name,slug,description)VALUES ($name,$slug,$description)";
-
-?> -->
+<?php 
+include("config/dbcon.php");
+include("functions/myfunctions.php"); 
+?>
 
 
 <div class="main-banner">
@@ -10,16 +10,43 @@ $main_banner_query = "SELECT * FROM edit (name,slug,description)VALUES ($name,$s
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="row align-items-center">
-                                <div class="col-lg-6">
-                                    <div class="main-banner-content">
-                                        <span>agritech Solutions</span>
-                                        <h1>We're not waiting for the opportunity, we're planting it.</h1>
-                                        <div class="banner-btn">
-                                            <a href="countact.php" class="default-btn">Contact</a>
-                                            <a href="https://docs.google.com/presentation/d/18sD9gMo-vomlzxOlxJGddirH6mxZCXV3/edit?usp=sharing&ouid=112206336075258811400&rtpof=true&sd=true" class="optional-btn">Downloand</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <?php 
+                                
+                                $banner_ = GetAll("banner");
+                                        if(mysqli_num_rows($banner_) > 0){
+
+                                            foreach($banner_ as $item_banner_banner)
+                                            {
+                                                
+                                   ?>
+
+                                                <div class="col-lg-6">
+                                                    <div class="main-banner-content">
+                                                        <span><?= $item_banner['name']; ?></span>
+                                                        <h1><?= $item_banner['slug']; ?></h1>
+                                                        <div class="banner-btn">
+                                                            <a href="<?= $item_banner['contact']; ?>" class="default-btn">Contact</a>
+                                                            <a href="<?= $item_banner['download']; ?>" class="optional-btn">Downloand</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                        
+
+
+                                   <?php
+                                }
+
+                            }else{
+                                echo "No records found";
+                            }
+                                
+                                
+                                
+                                
+                                ?>
+                                
 
                                 <div class="col-lg-6">
                                     <div class="main-banner-image">

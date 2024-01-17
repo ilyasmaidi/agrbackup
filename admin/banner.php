@@ -18,16 +18,16 @@ include("./includes/header.php");
                     <div class="card-body">
                         <div class="row">
                             <?php
-                            $dataEditTop = GetAll("banner");
-                            if(mysqli_num_rows($dataEditTop) > 0)
+                            $banner_main = GetAll("banner");
+                            if(mysqli_num_rows($banner_main) > 0)
                             {
                 
-                                $newData = mysqli_fetch_array($dataEditTop);
+                                $newData = mysqli_fetch_array($banner_main);
                                 
                                 ?>
 
                             <div class="col-md-6">
-                                <input type="hidden" name="edihome_id" value="<?=$newData['id']?>">
+                                <input type="hidden" name="banner_id" value="<?=$newData['id']?>">
                                 <label for="">Name</label>
                                 <input type="text" name="name" value="<?=$newData['name']?>" class="form-control" placeholder="Enter Location">
                             </div>

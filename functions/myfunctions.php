@@ -1,5 +1,6 @@
 <?php
 include('../config/dbcon.php');
+
 // include('../config/dbcon.php');
 
 function GetAll($table){
