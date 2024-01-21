@@ -5,7 +5,7 @@
                     <div class="main-responsive-menu">
                         <div class="logo">
                             <a href="index.php">
-                                <h1 class="logo-text">Agrit<span>Thec</span></h1>
+                                <h1 class="logo-text">Agri<span>Tech</span></h1>
                                 <!-- <img src="assets/img/logo.png" class="black-logo" alt="image"> -->
                                 <!-- <img src="assets/img/logo-2.png" class="white-logo" alt="image"> -->
                             </a>
@@ -67,23 +67,16 @@
                             </ul>
 
                             <div class="others-options d-flex align-items-center">
-                                <div class="option-item">
-                                    <div class="languages-list">
-                                        <a href="index.php">AR</a>
-                                        <!-- <select>
-                                            <option value="2">AR</option>
-                                        </select> -->
-                                    </div>
-                                </div>
+                                
 
-                                <div class="option-item">
+                                <!-- <div class="option-item">
                                     <div class="cart-btn">
                                         <a href="cart.php">
                                             <i class='flaticon-shopping-cart'></i>
                                             <span>0</span>
                                         </a>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="option-item">
                                     <form class="search-box">

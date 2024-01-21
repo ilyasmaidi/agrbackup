@@ -1,7 +1,15 @@
 <?php 
+
 include("config/dbcon.php");
-include("functions/myfunctions.php"); 
+// include("functions/myfunctions-edit-home.php");
 ?>
+
+
+
+
+
+
+
 
 
 <div class="main-banner">
@@ -10,43 +18,37 @@ include("functions/myfunctions.php");
                     <div class="d-table-cell">
                         <div class="container">
                             <div class="row align-items-center">
-                                <?php 
-                                
-                                $banner_ = GetAll("banner");
-                                        if(mysqli_num_rows($banner_) > 0){
 
-                                            foreach($banner_ as $item_banner_banner)
-                                            {
-                                                
-                                   ?>
+                    <?php
+                                    $topbanner = GetAll("banner");
+                                    if(mysqli_num_rows($topbanner) > 0){
 
-                                                <div class="col-lg-6">
-                                                    <div class="main-banner-content">
-                                                        <span><?= $item_banner['name']; ?></span>
-                                                        <h1><?= $item_banner['slug']; ?></h1>
-                                                        <div class="banner-btn">
-                                                            <a href="<?= $item_banner['contact']; ?>" class="default-btn">Contact</a>
-                                                            <a href="<?= $item_banner['download']; ?>" class="optional-btn">Downloand</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        foreach($topbanner as $item)
+                                        {
+                                        ?>
 
 
-                                        
 
 
-                                   <?php
-                                }
+                                <div class="col-lg-6">
+                                    <div class="main-banner-content">
+                                        <span><?= $item['name']; ?></span>
+                                        <h1><?= $item['slug']; ?></h1>
+                                        <div class="banner-btn">
+                                        <a href="<?= $item['contact']; ?>" class="default-btn">Contact</a>
+                                        <a href="<?= $item['download']; ?>" class="optional-btn">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            }else{
-                                echo "No records found";
-                            }
-                                
-                                
-                                
-                                
-                                ?>
-                                
+                                <?php
+                                        }
+
+                                    }else{
+                                        echo "No records found";
+                                    }
+
+                                    ?>
 
                                 <div class="col-lg-6">
                                     <div class="main-banner-image">

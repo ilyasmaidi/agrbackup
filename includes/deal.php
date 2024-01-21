@@ -1,30 +1,90 @@
+
+<?php 
+
+include("config/dbcon.php");
+// include("functions/myfunctions-edit-home.php");
+?>
 <section class="deal-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="deal-title">
-                            <h2>Key Principles</h2>
-                            <p>InnovatioivInnovation is a fundamental principle of IoT technology in agriculture The company  committed to continuous research and development to provide new solutions and innovations that meet the needs of farmer.</p>
-                        </div>
-                        <h3> Sustainability</h3> The company committed to providing sustainable solutions that can contribute to reducing the consumption of natural resources and improving the environmental performance of agriculture.<br>
 
 
-<h3> Farmer education</h3> The company strive to raise awareness and educate farmers about the benefits of IoT technology in agriculture and how to use it efficiently. The company should provide continuous support and training to farmers to ensure their effective use of the technology<br>
 
 
-<h3>Integration</h3>The company use IoT technology as part of an integrated system for agriculture. The solutions should be compatible and capable of communicating and integrating with other devices and systems such as remote sensing devices, agricultural automation, and other software applications<br>
+                        <?php
+                                    $keytop = GetAll("keyprince");
+                                    if(mysqli_num_rows($keytop) > 0){
+
+                                        foreach($keytop as $item)
+                                        {
+                                        ?>
 
 
-<h3>Quality and reliability</h3> The IoT solutions provided by the company of high quality and reliable. The devices and software should have a high level of performance and reliability to ensure the best experience for farmers and achieve higher efficiency<br>
+
+                                        <h2>Key Principles</h2>
+                                        <p><?= $item['title1']; ?></p>
+                                        </div>
+                                         <h3> Sustainability</h3><?= $item['title2']; ?><br>
 
 
-<h3> Transparency and security</h3> The company  prioritize transparency in its operations and ensure the highest level of security and privacy protection for farmers' information<br>
+                                        <h3> Farmer education</h3><?= $item['title3']; ?> <br>
 
 
-<h3>Technical support and customer service</h3> The company should be committed to providing continuous technical support to farmers and offering excellent customer service. There should be a dedicated and professional team that responds to farmers' needs and resolves issues promptly and efficiently<br>
-.</p>
+                                        <h3>Integration</h3><?= $item['title4']; ?><br>
 
+
+                                        <h3>Quality and reliability</h3> <?= $item['title5']; ?><br>
+
+
+                                        <h3> Transparency and security</h3> <?= $item['title6']; ?><br>
+
+
+                                        <h3>Technical support and customer service</h3><?= $item['title7']; ?> <br>
+                                        .</p>
+
+                                
+
+                                <?php
+                                        }
+
+                                    }else{
+                                        echo "No records found";
+                                    }
+
+                                    ?>
+
+
+
+
+
+
+
+
+
+                           
                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     </div>
 
                     <div class="col-lg-6">

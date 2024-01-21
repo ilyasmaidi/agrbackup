@@ -59,7 +59,7 @@
                         <div class="contact-info-content">
                             <h2>
                                 <a href="tel:+0881306298615">
-                                    +088 130 629 8615
+                                    +213 000 000 000
                                 </a>
                                 <span>OR</span>
                                 <a href="mailto:agritech@gmail.com">

@@ -46,16 +46,16 @@ include("./includes/header.php");
                             </div>
                             
 
-                            <div class="col-md-12">
+                            <!-- <div class="col-md-12">
                                             <label for="">Upload Logo</label>
                                             <input type="file" name="image" class="form-control" >
                                             <label for="">Current Logo</label>
                                             <input type="hidden" name="old_image" value="<?=$newData['image']?>">
                                             <img src="../uploads/<?=$newData['image']?>" width="50px" height="50px" alt="">
-                                        </div>        
+                                        </div>         -->
                             
                             
-                            <div class="com-md-12">
+                            <div class="com-md-12 ml-1" style="margin: 9px 0;">
                                 <button name="update_banner_btn" type="submit" class="btn btn-primary">Save</button>
                             </div>
 
