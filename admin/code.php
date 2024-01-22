@@ -377,4 +377,9 @@ else if(isset($_POST['update_clients_btn']))
 
 }
 
+
+
+// $conn->close();
+
+
 ?>

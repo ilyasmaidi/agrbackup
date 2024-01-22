@@ -237,7 +237,7 @@ jQuery(function ($) {
 	}
 	// AJAX MailChimp
 	$(".newsletter-form").ajaxChimp({
-		url: "https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9", // Your url MailChimp
+		url: "https://gmail.us9.list-manage.com/subscribe/post?u=669e065690684ce102771a5c1&amp;id=2a4990511a&amp;f_id=005b37e1f0", // Your url MailChimp
 		callback: callbackFunction
 	});
 
