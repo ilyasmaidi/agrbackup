@@ -89,11 +89,7 @@ $newData = mysqli_fetch_array($dataEditTop);
 
                                 
 
-                                <li class="nav-item">
-                                    <a href="#blog" class="nav-link">
-                                        Blog 
-                                    </a>
-                                </li>
+                                
 
                                 <li class="nav-item  ms-1">
                                     <a href="./contact.php" class="nav-link">

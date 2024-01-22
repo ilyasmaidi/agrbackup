@@ -53,11 +53,7 @@
                                     </a>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a href="index.php" class="nav-link">
-                                        Blog 
-                                    </a>
-                                </li>
+                                
 
                                 <li class="nav-item">
                                     <a href="./contact.php" class="nav-link">
