@@ -17,7 +17,7 @@ $data = mysqli_fetch_array($topsidebar);
                     <div class="contact-info">
                         <div class="contact-info-content">
                             <h2>
-                                <a href="tel:+0881306298615">
+                                <a href="tel:<?= $data['phone'] ?>">
                                 <?= $data['phone'] ?>
                                 </a>
                                 <span>OR</span>

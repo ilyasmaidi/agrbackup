@@ -1,0 +1,8 @@
+ftp accounts:
+o4pt^R?ZT[yw
+
+
+
+FTP Username: admin@agritechsulotions.com
+FTP server: ftp.vcash.agency
+FTP & explicit FTPS port:  21
