@@ -106,7 +106,7 @@ $newData = mysqli_fetch_array($dataEditTop);
                                             <?= $_SESSION['auth_user']['name']; ?>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                                            <li><a class="dropdown-item" href="admin/index.php">Dashboard</a></li>
                                             <li><a class="dropdown-item" href="#">New Blog</a></li>
                                             <li><a class="dropdown-item" href="logout.php">lOGOUT</a></li>
                                         </ul>

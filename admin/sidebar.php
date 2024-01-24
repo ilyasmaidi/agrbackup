@@ -25,15 +25,26 @@ include("./includes/header.php");
                                 
                                 ?>
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <input type="hidden" name="editsidebar_id" value="<?=$newData['id']?>">
                                 <label for="">Title</label>
                                 <input type="text" name="title" value="<?=$newData['title']?>" class="form-control" placeholder="Enter title">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <label for="">Slug</label>
-                                <input type="text" name="slug" value="<?=$newData['slug']?>" class="form-control" placeholder="Enter slug">
+                                <textarea class="col-md-12" name="slug" id=""><?=$newData['slug']?></textarea>
                             </div>
+                            
+                            <div class="col-md-12">
+                                <label for="">Phone</label>
+                                <input type="text" name="phone" value="<?=$newData['phone']?>" class="form-control" placeholder="Enter phone url">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="">email</label>
+                                <input type="text" name="email" value="<?=$newData['email']?>" class="form-control" placeholder="Enter email url">
+                            </div>
+
 
                             <div class="col-md-12">
                                 <label for="">Facebook</label>
@@ -55,7 +66,7 @@ include("./includes/header.php");
                                   
                             
                             
-                            <div class="com-md-12">
+                            <div class="com-md-12" style="margin: 8px 0;">
                                 <button name="update_sidebar_btn" type="submit" class="btn btn-primary">Update</button>
                             </div>
 
@@ -64,6 +75,8 @@ include("./includes/header.php");
 
 
                                 <?php
+                            }else{
+                                echo "data not found!";
                             }
                             ?>
                             

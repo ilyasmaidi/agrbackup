@@ -379,6 +379,44 @@ else if(isset($_POST['update_clients_btn']))
 
 
 
+
+
+
+
+
+
+
+
+else if(isset($_POST['update_sidebar_btn']))
+{     
+     $editsidebar_id = $_POST['editsidebar_id']; 
+     $title = $_POST['title'];  
+     $slug = $_POST['slug'];
+     $phone = $_POST['phone'];
+     $email = $_POST['email'];
+     $facebook = $_POST['facebook'];
+     $twitter = $_POST['twitter'];
+     $pinterest = $_POST['pinterest'];
+     $linkedin = $_POST['linkedin'];
+
+
+    
+
+     $update_query ="UPDATE sidebar SET title='$title', slug='$slug', phone='$phone', email='$email', facebook='$facebook',twitter='$twitter', pinterest='$pinterest',linkedin='$linkedin' WHERE id='$editsidebar_id'";
+
+     $update_query_run = mysqli_query($con,$update_query);
+     if($update_query_run)
+     {
+      redirect("Category Updated Successfully","sidebar.php?id=$editsidebar_id");
+     }
+     else 
+     {
+      redirect("Something WEnt Wrong","sidebar.php?id=$editsidebar_id");
+
+     }
+
+}
+
 // $conn->close();
 
 
