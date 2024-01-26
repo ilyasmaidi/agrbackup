@@ -35,8 +35,7 @@
                 <?php 
 
                 unset($_SESSION['message']);
-            } 
-            ?>  
+            }             ?>  
             </script>
     </body>
 </html>

@@ -37,7 +37,8 @@ $topinstgram = GetAll("instagram_photos");
                         <?php while ($row = mysqli_fetch_assoc($topinstgram)) : ?>
                             <li>
                                 <div class="box">
-                                    <img src="<?= $row['photo_url'] ?>" alt="image">
+                                    <img src="uploads/<?= $row['photo_url'] ?>" alt="image">
+                                    
                                     <i class="bx bxl-instagram"></i>
                                     <a href="<?= $row['link_url'] ?>" target="_blank" class="link-btn"></a>
                                 </div>

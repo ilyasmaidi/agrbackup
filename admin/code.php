@@ -420,4 +420,50 @@ else if(isset($_POST['update_sidebar_btn']))
 // $conn->close();
 
 
+else if(isset($_POST['update_footer_btn']))
+{     
+     $footer_id = $_POST['footer_id']; 
+     $link_url = $_POST['link_url'];
+
+    //  $photo_url = $_POST['photo_url'];
+     
+
+
+     $new_image = $_FILES['photo_url']['name'];
+     $old_image = isset($_POST['old_image']) ? $_POST['old_image'] : '';
+     
+     if($new_image != "")
+     {
+         // $update_filename = $new_image;
+         $image_ext = pathinfo($new_image, PATHINFO_EXTENSION);
+         $update_filename = time().'.'.$image_ext  ;
+     }else
+     {
+         $update_filename = $old_image;
+     }
+     $path ="../uploads";
+
+     $update_query ="UPDATE instagram_photos SET link_url='$link_url',photo_url='$update_filename' WHERE id='$footer_id'";
+
+     $update_query_run = mysqli_query($con,$update_query);
+     if($update_query_run)
+     {
+      if($_FILES['photo_url']['name'] != "")
+      {
+         move_uploaded_file($_FILES['photo_url']['tmp_name'],$path.'/'.$update_filename);
+         if(file_exists("../uploads/".$old_image))
+         {
+            unlink("../uploads/".$old_image);
+         }
+      }
+      redirect("Footer Updated Successfully","edit-footer.php?id=$footer_id");
+     }
+     else 
+     {
+      redirect("Something WEnt Wrong","edit-footer.php?id=$footer_id");
+
+     }
+
+}
+
 ?>
