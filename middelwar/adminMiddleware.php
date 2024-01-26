@@ -1,5 +1,7 @@
 <?php
-include("../functions/myfunctions.php");
+include(__DIR__ . '../../functions/myfunctions.php');
+
+
 if(isset($_SESSION['auth']))
 {
     if($_SESSION['role_as'] != 1){

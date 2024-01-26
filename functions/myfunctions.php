@@ -1,5 +1,7 @@
 <?php
-include('../config/dbcon.php');
+include(__DIR__ . '../../config/dbcon.php');
+
+// include('../config/dbcon.php');
 
 // include('../config/dbcon.php');
 
