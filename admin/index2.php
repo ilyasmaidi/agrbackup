@@ -3,11 +3,11 @@
 session_start();
 include ("../config/dbcon.php");
 include ("../middelwar/adminMiddleware.php"); 
-include('../includes/start.php');
+
 
 ?>
 
-
+<?php include('../includes/start.php'); ?>
 
 
     <!-- Sidebar -->
@@ -180,5 +180,5 @@ include('../includes/start.php');
 
     </div>
 
-    <?php include('../includes/end.php') ?>
+<?php include('../includes/end.php') ?>
     
