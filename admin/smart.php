@@ -1,9 +1,25 @@
-<?php
+<?php 
 session_start();
+include ("../config/dbcon.php");
 include ("../middelwar/adminMiddleware.php");
-include("./includes/header.php"); 
+include("./includes/start_admin.php"); 
 ?>
-<div class="container">
+<!-- SIDEBAR -->
+<?php include("./includes/sidebar_admin.php");?>
+
+<!-- SIDEBAR -->
+
+<!-- NAVBAR -->
+<section id="content">
+    <!-- NAVBAR -->
+    <?php include("./includes/navbar_admin.php");?>
+    
+    <!-- NAVBAR -->
+
+    <!-- MAIN -->
+        <div class="main-admin">
+        
+        <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -54,4 +70,11 @@ include("./includes/header.php");
     </div>
 </div>
 
-<?php include("./includes/footer.php");
+        </div>
+    
+
+    <!-- MAIN -->
+</section>
+<!-- NAVBAR -->
+        
+<?php include("./includes/end_admin.php") ?>

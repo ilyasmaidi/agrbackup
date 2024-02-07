@@ -18,18 +18,18 @@ include("./includes/start_admin.php");
 
     <!-- MAIN -->
     <div class="main-admin">
-
     <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-header">
-                    <h4>Our Serverces</h4>
-                </div>
-                <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Categories</h4>
+                    </div>
+                    <div class="card-body">
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
+                                <th>ID</th>
                                 <th>Title</th>
                                 <th>MText</th>
                                 
@@ -37,21 +37,22 @@ include("./includes/start_admin.php");
                         </thead>
                         <tbody>
                             <?php
-                            $topservice = GetAll("services");
-                            if(mysqli_num_rows($topservice) > 0){
+                            $topchoose = GetAll("choose");
+                            if(mysqli_num_rows($topchoose) > 0){
 
-                                foreach($topservice as $item)
+                                foreach($topchoose as $item)
                                 {
                                    ?>
                                      <tr>
+                                        <td><?= $item['id']; ?></td>
                                         <td><?= $item['title']; ?></td>
                                         <td style="overflow: hidden;">
                                             
                                             <!-- <input type="text" name="" id=""> -->
-                                            <textarea name="text" id="" cols="30" rows="10" readonly><?= $item['text']; ?></textarea>
+                                            <textarea name="" id="" cols="30" rows="10" readonly><?= $item['text']; ?></textarea>
                                         </td>
                         
-                                        <td> <a href="edit-services.php?id=<?=$item['id']; ?>" class="btn btn-primary">Edit</a></td>
+                                        <td> <a href="edit-choose.php?id=<?=$item['id']; ?>" class="btn btn-primary">Edit</a></td>
                                      </tr>
                                    <?php
                                 }
@@ -69,11 +70,6 @@ include("./includes/start_admin.php");
         </div>
     </div>
 </div>
-                  
-            
-            
-
-        
     </div>
     
 
