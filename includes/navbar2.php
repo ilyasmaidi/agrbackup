@@ -1,4 +1,10 @@
- <!-- Start Navbar Area -->
+<?php 
+// include("../config/dbcon.php");
+$dataEditTop = GetAll("topheader");
+$newData = mysqli_fetch_array($dataEditTop);
+?>
+
+<!-- Start Navbar Area -->
  <div class="navbar-area">
             <div class="main-responsive-nav">
                 <div class="container">
@@ -18,8 +24,14 @@
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
                         <a class="navbar-brand" href="index.php">
-                            <img src="assets/img/logo.png" class="black-logo" alt="image">
-                            <img src="assets/img/logo-2.png" class="white-logo" alt="image">
+                        <?php
+                            
+                            
+                            ?>
+                            <img src="uploads/<?=$newData['image']?>" width="100px" height="100px"?>
+                            <?php
+                        
+                        ?>
                         </a>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
