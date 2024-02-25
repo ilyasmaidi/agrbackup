@@ -6,3 +6,8 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+/Agritech_backup.zip
+# Using wildcards
+*.extension
+*.zip
+*.sql

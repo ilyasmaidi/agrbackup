@@ -123,11 +123,11 @@ else if(isset($_POST['update_home_btn']))
             unlink("../uploads/".$old_image);
          }
       }
-      redirect("Category Updated Successfully","edit-home.php?id=$edihome_id");
+      redirect("Category Updated Successfully","edit-home_admin.php?id=$edihome_id");
      }
      else 
      {
-      redirect("Something WEnt Wrong","edit-home.php?id=$edihome_id");
+      redirect("Something WEnt Wrong","edit-home_admin.php?id=$edihome_id");
 
      }
 
@@ -174,11 +174,11 @@ else if(isset($_POST['update_banner_btn']))
             unlink("../uploads/".$old_image);
          }
       }
-      redirect("Category Updated Successfully","banner.php?id=$banner_id");
+      redirect("Category Updated Successfully","banner_admin.php?id=$banner_id");
      }
      else 
      {
-      redirect("Something WEnt Wrong","banner.php?id=$banner_id");
+      redirect("Something WEnt Wrong","banner_admin.php?id=$banner_id");
 
      }
 
