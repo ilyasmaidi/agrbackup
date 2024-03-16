@@ -28,3 +28,6 @@ a.buy-now-btn {
     color: #111111;
     font-size: 34px;
 }
+textarea.col-md-12 {
+    padding: 12px;
+}

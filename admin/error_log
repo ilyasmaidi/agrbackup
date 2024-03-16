@@ -1,0 +1,19 @@
+[07-Feb-2024 14:41:39 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vcaszeoc/agritechsulotions.com/admin/sidebar.php on line 2
+[07-Feb-2024 14:41:39 UTC] PHP Fatal error:  Cannot redeclare GetAll() (previously declared in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php:8) in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php on line 8
+[07-Feb-2024 14:41:49 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vcaszeoc/agritechsulotions.com/admin/sidebar.php on line 2
+[07-Feb-2024 14:41:49 UTC] PHP Fatal error:  Cannot redeclare GetAll() (previously declared in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php:8) in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php on line 8
+[08-Feb-2024 10:32:26 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vcaszeoc/agritechsulotions.com/admin/sidebar.php on line 2
+[08-Feb-2024 10:32:26 UTC] PHP Fatal error:  Cannot redeclare GetAll() (previously declared in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php:8) in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php on line 8
+[08-Feb-2024 10:32:48 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vcaszeoc/agritechsulotions.com/admin/sidebar.php on line 2
+[08-Feb-2024 10:32:48 UTC] PHP Fatal error:  Cannot redeclare GetAll() (previously declared in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php:8) in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php on line 8
+[03-Mar-2024 09:25:54 UTC] PHP Warning:  Undefined array key "image" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 145
+[03-Mar-2024 09:25:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 145
+[03-Mar-2024 09:25:54 UTC] PHP Warning:  Undefined array key "image" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 169
+[03-Mar-2024 09:25:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 169
+[03-Mar-2024 09:46:50 UTC] PHP Warning:  Undefined array key "title2" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 192
+[03-Mar-2024 09:46:50 UTC] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/vcaszeoc/agritechsulotions.com/admin/sidebar.php on line 2
+[03-Mar-2024 09:46:50 UTC] PHP Fatal error:  Cannot redeclare GetAll() (previously declared in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php:8) in /home/vcaszeoc/agritechsulotions.com/functions/myfunctions.php on line 8
+[14-Mar-2024 22:16:11 UTC] PHP Warning:  Undefined array key "youtube_id" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 240
+[14-Mar-2024 22:47:53 UTC] PHP Warning:  Undefined array key "youtube_id" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 240
+[14-Mar-2024 22:48:55 UTC] PHP Warning:  Undefined array key "youtube_id" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 240
+[14-Mar-2024 22:49:25 UTC] PHP Warning:  Undefined array key "youtube_id" in /home/vcaszeoc/agritechsulotions.com/admin/code.php on line 240

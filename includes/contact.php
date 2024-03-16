@@ -28,7 +28,7 @@
                             <h2>Contact</h2>
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="#section-titlenow">Contact Us Now</a>
                                 </li>
                                 <li>Contact</li>
                             </ul>
@@ -92,7 +92,7 @@
         <!-- Start Contact Area -->
         <section class="contact-area ptb-100">
             <div class="container">
-                <div class="section-title">
+                <div class="section-title" id="section-titlenow">
                     <h2>Providing innovative and sustainable technological solutions</h2>
                     <p>We believe that modern technology can greatly contribute to improving agriculture processes and achieving sustainable farming. We strive to provide innovative and sustainable technological solutions for plant growers through a combination of automation, remote sensing, and artificial intelligence.</p>
                 </div>

@@ -12,6 +12,7 @@ echo __DIR__;
 <script src="<?= BASE_URL ?>/assets/js/smooth-scrollbar.min.js"></script>
 
 <!-- JavaScript Alertify -->
+<!-- JavaScript -->
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
 <script>

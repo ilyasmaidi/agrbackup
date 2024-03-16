@@ -1,9 +1,9 @@
 <?php
 
-    $host = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "agritech";
+    $host = "localhost:3306";
+    $username = "vcaszeoc_root";
+    $password = "HsGoQ+w8*gE1";
+    $database = "vcaszeoc_agritech";
 
 
     // Creating database connection

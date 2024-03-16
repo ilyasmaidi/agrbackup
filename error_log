@@ -1,0 +1,122 @@
+[07-Feb-2024 14:36:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vcaszeoc/agritechsulotions.com/config/dbcon.php on line 10
+[07-Feb-2024 14:36:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vcaszeoc/agritechsulotions.com/config/dbcon.php on line 10
+[08-Feb-2024 10:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[09-Feb-2024 04:38:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[13-Feb-2024 00:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[17-Feb-2024 04:59:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[19-Feb-2024 13:26:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[23-Feb-2024 08:37:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[24-Feb-2024 08:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[27-Feb-2024 07:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[28-Feb-2024 20:03:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[29-Feb-2024 15:07:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[01-Mar-2024 14:48:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[08-Mar-2024 20:15:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[09-Mar-2024 06:39:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[10-Mar-2024 09:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[11-Mar-2024 13:03:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/cart.php(57): include()
+#1 /home/vcaszeoc/agritechsulotions.com/cart.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[11-Mar-2024 20:49:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[14-Mar-2024 11:28:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[14-Mar-2024 11:28:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[15-Mar-2024 07:08:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
+[15-Mar-2024 07:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function GetAll() in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php:3
+Stack trace:
+#0 /home/vcaszeoc/agritechsulotions.com/includes/register.php(68): include()
+#1 /home/vcaszeoc/agritechsulotions.com/register.php(2): include('/home/vcaszeoc/...')
+#2 {main}
+  thrown in /home/vcaszeoc/agritechsulotions.com/includes/navbar2.php on line 3
