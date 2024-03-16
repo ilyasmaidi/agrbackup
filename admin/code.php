@@ -80,7 +80,7 @@ else if(isset($_POST['update_category_btn']))
      }
      else 
      {
-      redirect("Something WEnt Wrong","edit-category.php?id=$category_id");
+      redirect("Something Went Wrong","edit-category.php?id=$category_id");
 
      }
 
@@ -205,11 +205,11 @@ else if(isset($_POST['update_key_btn']))
 
     if($update_query_run)
     {
-        redirect("Category Updated Successfully", "key-principles.php?id=$key_id");
+        redirect("KeyPrince Updated Successfully", "key-principles_admin.php?id=$key_id");
     }
     else 
     {
-        redirect("Something Went Wrong", "key-principles?id=$key_id");
+        redirect("Something Went Wrong", "key-principles_admin.php?id=$key_id");
     }
 }
 

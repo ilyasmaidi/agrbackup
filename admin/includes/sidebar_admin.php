@@ -15,8 +15,8 @@
 					<li><a href="smart.php">Smart Farm Section</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
-			<li><a href="#"><i class='bx bxs-widget icon' ></i> Widgets</a></li>
+			<li><a href="profil.php"><i class='bx bxs-chart icon' ></i> Profil</a></li>
+			<li><a href="settings.php"><i class='bx bxs-widget icon' ></i> Settings</a></li>
 			<li class="divider" data-text="table and forms">Table and forms</li>
 			<li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
 			<li>

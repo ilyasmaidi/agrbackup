@@ -621,3 +621,7 @@ body{
     }
 
 }
+
+.dot-menu {
+    display: none;
+  }
