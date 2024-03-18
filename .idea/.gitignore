@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -6,3 +7,21 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/Agritech_backup.zip
+# Using wildcards
+*.extension
+*.zip
+*.sql
+/config/
+dbcon.php
+
+>>>>>>> e6db2624c77880062982519938a8ffa7b711a5b3
